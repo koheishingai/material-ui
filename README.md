@@ -61,7 +61,7 @@ module.exports = SomeAwesomeComponent;
 ## コントリビュート
 Material-UIは私たちの敬愛する[React](http://facebook.github.io/react/)と[Googleマテリアルデザイン](http://www.material-ui.com/)から誕生しました。
 私たちは、現在[Call-Em-All](https://www.call-em-all.com/)というプロジェクトでこれを使用しています。
-支援をしたい場合は、[docs folder](https://github.com/callemall/material-ui/tree/master/docs)をチェックしてみてください。どんな支援も歓迎します。
+支援をしたい場合は、[docsフォルダー](https://github.com/callemall/material-ui/tree/master/docs)をチェックしてみてください。どんな支援も歓迎します。
 
 ### その他の言語
 

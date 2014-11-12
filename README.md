@@ -1,9 +1,11 @@
 # [Material-UI](http://callemall.github.io/material-ui/)
 
-Material-UIは、[Googleマテリアルデザイン](https://www.google.com/design/spec/material-design/introduction.html)が埋め込まれた[React](http://facebook.github.io/react/)コンポーネント、及びCSSフレームワークです。
+Material-UIは、[Googleマテリアルデザイン](https://www.google.com/design/spec/material-design/introduction.html)が埋め込まれた[React](http://facebook.github.io/react/)コンポーネント、
+及びCSSフレームワークです。
 
 動くサンプルは、[ドキュメンテーションサイト](http://www.material-ui.com/)をご確認下さい。
-まだまだ作成途中ですが、私たちがどこに向かっているのか理解することができるかと思います。
+
+まだまだ作成途中ですが、私たちがどこに向かっているのかを理解することができるかと思います。
 
 ## インストール方法
 
@@ -13,6 +15,7 @@ npm install material-ui
 ```
 
 依存関係の管理とJSXの変換は、[browserify](http://browserify.org/)と[reactify](https://github.com/andreypopp/reactify)をご使用下さい。
+
 CSSフレームワークは、[Less](http://lesscss.org/)によって実装されています。
 
 
@@ -47,8 +50,10 @@ module.exports = SomeAwesomeComponent;
 * src/less/scaffolding.less
 * src/less/components.less
 
-これにより、全ての定義されている変数を[custom-variables.less](https://github.com/callemall/material-ui/blob/master/src/less/variables/custom-variables.less)の上書きのみで、Material-UIのソースを直接変更することなくカスタマイズすることが可能です。
-以下実例ですが、main.lessファイルからは以下ように参照されます。
+これにより、全ての定義されている変数を[custom-variables.less](https://github.com/callemall/material-ui/blob/master/src/less/variables/custom-variables.less)の上書きのみで、
+Material-UIのソースを直接変更することなくカスタマイズすることが可能です。
+
+実例ですが、main.lessファイルからは以下ように参照されます。
 ```css
 @import "node_modules/material-ui/src/less/scaffolding.less";
 
@@ -60,7 +65,9 @@ module.exports = SomeAwesomeComponent;
 
 ## コントリビュート
 Material-UIは私たちの敬愛する[React](http://facebook.github.io/react/)と[Googleマテリアルデザイン](http://www.material-ui.com/)から誕生しました。
+
 私たちは、現在[Call-Em-All](https://www.call-em-all.com/)というプロジェクトでこれを使用しています。
+
 支援をしたい場合は、[docsフォルダー](https://github.com/callemall/material-ui/tree/master/docs)をチェックしてみてください。どんな支援も歓迎します。
 
 ### その他の言語
